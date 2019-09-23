@@ -1,0 +1,203 @@
+/**
+ * This CSS file was auto-generated via PostCSS
+ *
+ * Contributors should avoid editing this file, but instead edit the associated
+ * src/resources/postcss/ file. For more information, check out our engineering
+ * docs on how we handle CSS in our engineering docs.
+ *
+ * @see: http://moderntribe.github.io/products-engineering/css/
+ */
+
+
+
+.tribe-eventbrite-notices li {
+	list-style: disc outside none;
+	list-style: initial;
+	margin-left: 20px;
+}
+
+.tribe-eventbrite-notices li > ul {
+	margin-top: 10px;
+}
+
+.tec_eb_status_cancel_notice {
+	color: red;
+	font-size: smaller;
+	margin-top: 10px;
+}
+
+.eventsWarning {
+	display: block;
+	margin: 30px 0;
+}
+
+.tec-event-configure-warning {
+	background-color: #ffffe0;
+	border: 1px solid #e6db55;
+	border-radius: 3px; /* future proofing */
+	margin: 0 6px;
+	padding: 10px 20px;
+}
+
+span.tec-radio-option {
+	margin-right: 15px;
+	white-space: nowrap;
+}
+
+.eventForm #eb-tec-import-event {
+	margin: 0 0 10px;
+}
+
+#event_cost td {
+	vertical-align: top !important;
+}
+
+.eventForm #eb-tec-payment-options td hr {
+	border-color: #dfdfdf;
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	margin: 0 0 16px;
+	width: 97%;
+}
+
+.eventForm #eb-tec-payment-options td div {
+	display: none;
+	margin: 0 0 16px;
+}
+
+.eventForm #eb-tec-payment-options td #eb-tec-payment-options-checkboxes {
+	display: block;
+}
+
+.eventForm #eb-tec-payment-options td #eb-tec-payment-options-checkboxes > div.label {
+	display: block;
+	margin: 0;
+	text-decoration: none;
+}
+
+.eventForm #eb-tec-payment-options td #eb-tec-payment-options-checkboxes > div.online {
+	display: block;
+	margin: 0;
+	padding: 5px 0;
+	text-decoration: none;
+}
+
+.eventForm #eb-tec-payment-options td #eb-tec-payment-options-checkboxes > div.offline {
+	display: block;
+	margin: 0;
+	padding: 5px 0;
+	text-decoration: none;
+}
+
+.eventForm #eb-tec-payment-options td #eb-tec-payment-options-checkboxes span {
+	margin-bottom: 3px;
+	width: 33%;
+}
+
+.eventForm #eb-tec-payment-options td div label {
+	cursor: default;
+	margin: 0 8px 0 0;
+}
+
+.eventForm #eb-tec-payment-options td div label span,
+span.tec-required {
+	color: #f26822;
+	font-size: 8px;
+	line-height: 16px;
+	margin: 0 0 0 4px;
+	vertical-align: top;
+}
+
+.eventForm #eb-tec-payment-options td div input {
+	margin: 0 4px 4px 0;
+}
+
+.eventForm #eb-tec-payment-options td .eb-tec-payment-instructions label {
+	display: block;
+	margin: 0 0 3px;
+}
+
+.eventForm #eb-tec-existing-event-id-input {
+	display: none;
+	margin: 0 0 25px;
+}
+
+.eventForm .description_input,
+.eventForm #eb-tec-payment-options td .eb-tec-payment-instructions textarea {
+	border: 1px solid #dfdfdf;
+	font-size: 11px;
+	height: 45px;
+	width: 95%;
+}
+
+.eb-tec-payment-details td {
+	display: none;
+}
+
+.eb-tec-payment-details td.eb-tec-payment-details-heading {
+	float: left;
+}
+
+.sp-eb-widget-content p label {
+	display: block;
+	margin: 0 0 2px;
+}
+
+#event_cost tr td:first-child {
+	width: 172px;
+}
+
+.event_links li {
+	margin-bottom: 2px;
+}
+
+.event_links li a {
+	font-size: 11px;
+}
+
+div.updated.tribe-notice {
+	padding-right: 10px;
+	position: relative;
+}
+
+.tribe-notice .tribe-dismiss-notice {
+	font-size: 16px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.tribe-eb-logo {
+	float: left;
+	margin-right: 0;
+	margin-top: 7px;
+	width: 110px;
+}
+
+.tribe-eb-select2 {
+	width: 300px;
+}
+
+.tribe-eb-warning {
+	color: #eb4025;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.tribe-eb-msg {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.tribe-eb-warning {
+	color: #eb4025;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.tribe-eb-notice {
+	color: #ff8000;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 700;
+}
